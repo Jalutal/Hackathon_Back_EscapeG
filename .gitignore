@@ -1,1 +1,7 @@
 node_modules
+
+
+# Sample Secure Data 
+db/*
+
+## Don't Ignore this
