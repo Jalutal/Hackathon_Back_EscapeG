@@ -2,13 +2,13 @@
 const express = require('express');
 const router = express.Router();
 // Init Conthrollers
-const roleCtr = require('../controllers/roleController');
+const roleCtr = require('../controllers/rolesController');
 const authCtr = require('../controllers/authController');
 
 // Router Set
 router
     .route('/')
-    .get(authCtr.protect, authCtr.restrictTo("Editor"), roleCtr.findAllRoles)
+    .get(authCtr.protect, authCtr.restrictTo("Admin"), roleCtr.findAllRoles)
 
 
 // Export Module

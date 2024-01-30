@@ -8,7 +8,7 @@ const servCtr = require('../controllers/servicesController')
 // Router Set
 router
     .route('/')
-    .get(authCtr.protect, authCtr.restrictTo("Editor"), servCtr.findAllService)
+    .get(authCtr.protect, authCtr.restrictTo("Sponsor"), servCtr.findAllService)
 
 
 // Export Module
