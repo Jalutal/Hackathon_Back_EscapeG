@@ -6,12 +6,24 @@ const routesList = [
     // Conthroller Route
     {   
         path:`${defaultPath}/users`,
-        router:'./routes/userRoutes'
+        router:'./routes/+usersRoutes'
     },
     {   
         path:`${defaultPath}/roles`,
-        router:'./routes/roleRoutes'
-    }
+        router:'./routes/rolesRoutes'
+    },
+    {   
+        path:`${defaultPath}/services`,
+        router:'./routes/servicesRoutes'
+    },
+    {   
+        path:`${defaultPath}/reservations`,
+        router:'./routes/reservationsRoutes'
+    },
+    {   
+        path:`${defaultPath}/contacts`,
+        router:'./routes/contactRoutes'
+    },
 ];
 
 

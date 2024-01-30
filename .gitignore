@@ -1,7 +1,10 @@
 node_modules
 
+#configs
+configs/*
 
 # Sample Secure Data 
-db/*
+db/data/*
+
 
 ## Don't Ignore this
